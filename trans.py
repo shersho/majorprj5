@@ -213,8 +213,8 @@ trans6B.place(x=525,y=400)
 
 win.configure(bg="white")
 
-enter_btn = PhotoImage(file='arrowp.png')
-img_label = Label(image=enter_btn)
+#enter_btn = PhotoImage(file='arrowp.png')
+#img_label = Label(image=enter_btn)
 #arrow = tk.Button(win, image=enter_btn, font=("Helvetica",10,"bold"), borderwidth=0, highlightbackground = 'black')
 #arrow.pack()
 #arrow.place(x=300, y=180)
