@@ -211,6 +211,7 @@ def graph():
     data = np.array([int(passCount), int(failCount), int(ineliCount)])
     label = ["PASS", "FAIL", "NOT Tested"]
     plt.pie(data, labels = label, autopct=lambda pct: func(pct, data))
+    plt.legend()
     plt.show()
     
     #progress.stop()
